@@ -1,0 +1,9 @@
+/*
+Os mixins empréganse da seguinte maneira:
+@include transition(border-bottom, 0.2s);
+*/
+
+@mixin transition($what, $time) {
+    -webkit-transition: $what $time ease-in-out;
+    transition: $what $time ease-in-out;
+}
