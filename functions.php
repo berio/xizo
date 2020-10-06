@@ -6,6 +6,7 @@
 require_once( get_template_directory() . '/inc/func-custom-posts.php');
 require_once( get_template_directory() . '/inc/func-custom-meta-boxes.php');
 require_once( get_template_directory() . '/inc/func-custom-options.php');
+require_once( get_template_directory() . '/inc/func-woocommerce.php');
 require_once( get_template_directory() . '/inc/func-ajax.php');
 
 /*------------------------------------*\
